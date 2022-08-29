@@ -1,0 +1,292 @@
+developer@developer:~$ cd Documents/Ruby\ Programs/
+developer@developer:~/Documents/Ruby Programs$ ls
+ 10_Loops.rb                         26_Oprators_6.rb
+ 12_Table.rb                         26_Oprators_7.rb
+ 13_For_NumPattern.rb                27_Exception_1.rb
+ 14_While_NumPattern.rb              27_Exception_2_retry.rb
+ 15_Even_Num_sum.rb                  27_Exception_3_retry.rb
+ 16_CountNum.rb                      27_Exception_4.rb
+ 17_Number_1.rb                      27_Exception_5.rb
+ 18_Boolean.rb                       27_Exception_6_Catch.rb
+ 19_String1.rb                       28_Module_1.rb
+'19_String2_reverse .rb'             28_Module_2_with_class.rb
+ 1_first.rb                          28_Module_3_with_class.rb
+'20_Array_1_Sort .rb'                29_Instance_1.rb
+'20_Array_2 .rb'                     2_Fibonacci.rb
+ 20_Array_3.rb                       30_GetTetMethod_1.rb
+ 20_Array_4.rb                       31_Reader_1.rb
+ 20_Array_5.rb                       32_Writer_1.rb
+ 20_Array_6_TwoD.rb                  33_Accessor_1.rb
+ 20_Array_7_TwoD.rb                  34_Self_1.rb
+ 21_Hash_1.rb                        35_Class_Instance.rb
+ 21_Hash_2.rb                        35_Super_1.rb
+ 21_Hash_3.rb                        36_Iterators_1.rb
+ 21_Hash_4.rb                        37_ARGV.rb
+'22_Time&Date_1.rb'                  3_Addition.rb
+ 23_Class_Acccess_Inheritance_1.rb   4_LargestNum.rb
+ 23_Ranges_1.rb                      5_Even_Odd.rb
+ 24_Setter_1.rb                      6_ClassObject1.rb
+ 25_Getter_1.rb                      6_ClassObject2.rb
+ 26_Oprators_1.rb                    6_ClassObject3.rb
+ 26_Oprators_2.rb                    7_ReverseArray.rb
+ 26_Oprators_3.rb                    8_Pattern1.rb
+ 26_Oprators_4.rb                    999_Test.rb
+ 26_Oprators_5.rb                    9_calculator.rb
+developer@developer:~/Documents/Ruby Programs$ code .
+developer@developer:~/Documents/Ruby Programs$ echo "# Ruby-Programs" >> README.md
+developer@developer:~/Documents/Ruby Programs$ ls
+ 10_Loops.rb               20_Array_3.rb                       25_Getter_1.rb            27_Exception_6_Catch.rb     36_Iterators_1.rb
+ 12_Table.rb               20_Array_4.rb                       26_Oprators_1.rb          28_Module_1.rb              37_ARGV.rb
+ 13_For_NumPattern.rb      20_Array_5.rb                       26_Oprators_2.rb          28_Module_2_with_class.rb   3_Addition.rb
+ 14_While_NumPattern.rb    20_Array_6_TwoD.rb                  26_Oprators_3.rb          28_Module_3_with_class.rb   4_LargestNum.rb
+ 15_Even_Num_sum.rb        20_Array_7_TwoD.rb                  26_Oprators_4.rb          29_Instance_1.rb            5_Even_Odd.rb
+ 16_CountNum.rb            21_Hash_1.rb                        26_Oprators_5.rb          2_Fibonacci.rb              6_ClassObject1.rb
+ 17_Number_1.rb            21_Hash_2.rb                        26_Oprators_6.rb          30_GetTetMethod_1.rb        6_ClassObject2.rb
+ 18_Boolean.rb             21_Hash_3.rb                        26_Oprators_7.rb          31_Reader_1.rb              6_ClassObject3.rb
+ 19_String1.rb             21_Hash_4.rb                        27_Exception_1.rb         32_Writer_1.rb              7_ReverseArray.rb
+'19_String2_reverse .rb'  '22_Time&Date_1.rb'                  27_Exception_2_retry.rb   33_Accessor_1.rb            8_Pattern1.rb
+ 1_first.rb                23_Class_Acccess_Inheritance_1.rb   27_Exception_3_retry.rb   34_Self_1.rb                999_Test.rb
+'20_Array_1_Sort .rb'      23_Ranges_1.rb                      27_Exception_4.rb         35_Class_Instance.rb        9_calculator.rb
+'20_Array_2 .rb'           24_Setter_1.rb                      27_Exception_5.rb         35_Super_1.rb               README.md
+developer@developer:~/Documents/Ruby Programs$ git init
+Initialized empty Git repository in /home/developer/Documents/Ruby Programs/.git/
+developer@developer:~/Documents/Ruby Programs$ git add .
+developer@developer:~/Documents/Ruby Programs$ git commit -m "Basic Programs 1"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'developer@developer.(none)')
+developer@developer:~/Documents/Ruby Programs$ git config user.name yjairiya
+developer@developer:~/Documents/Ruby Programs$ git config user.email yjairiya@bestpeers.com
+developer@developer:~/Documents/Ruby Programs$ git config user.name
+yjairiya
+developer@developer:~/Documents/Ruby Programs$ git config user.email
+yjairiya@bestpeers.com
+developer@developer:~/Documents/Ruby Programs$ git commit -m "Basic Programs 1"
+[master (root-commit) da7f27b] Basic Programs 1
+ 65 files changed, 1660 insertions(+)
+ create mode 100644 10_Loops.rb
+ create mode 100644 12_Table.rb
+ create mode 100644 13_For_NumPattern.rb
+ create mode 100644 14_While_NumPattern.rb
+ create mode 100644 15_Even_Num_sum.rb
+ create mode 100644 16_CountNum.rb
+ create mode 100644 17_Number_1.rb
+ create mode 100644 18_Boolean.rb
+ create mode 100644 19_String1.rb
+ create mode 100644 19_String2_reverse .rb
+ create mode 100644 1_first.rb
+ create mode 100644 20_Array_1_Sort .rb
+ create mode 100644 20_Array_2 .rb
+ create mode 100644 20_Array_3.rb
+ create mode 100644 20_Array_4.rb
+ create mode 100644 20_Array_5.rb
+ create mode 100644 20_Array_6_TwoD.rb
+ create mode 100644 20_Array_7_TwoD.rb
+ create mode 100644 21_Hash_1.rb
+ create mode 100644 21_Hash_2.rb
+ create mode 100644 21_Hash_3.rb
+ create mode 100644 21_Hash_4.rb
+ create mode 100644 22_Time&Date_1.rb
+ create mode 100644 23_Class_Acccess_Inheritance_1.rb
+ create mode 100644 23_Ranges_1.rb
+ create mode 100644 24_Setter_1.rb
+ create mode 100644 25_Getter_1.rb
+ create mode 100644 26_Oprators_1.rb
+ create mode 100644 26_Oprators_2.rb
+ create mode 100644 26_Oprators_3.rb
+ create mode 100644 26_Oprators_4.rb
+ create mode 100644 26_Oprators_5.rb
+ create mode 100644 26_Oprators_6.rb
+ create mode 100644 26_Oprators_7.rb
+ create mode 100644 27_Exception_1.rb
+ create mode 100644 27_Exception_2_retry.rb
+ create mode 100644 27_Exception_3_retry.rb
+ create mode 100644 27_Exception_4.rb
+ create mode 100644 27_Exception_5.rb
+ create mode 100644 27_Exception_6_Catch.rb
+ create mode 100644 28_Module_1.rb
+ create mode 100644 28_Module_2_with_class.rb
+ create mode 100644 28_Module_3_with_class.rb
+ create mode 100644 29_Instance_1.rb
+ create mode 100644 2_Fibonacci.rb
+ create mode 100644 30_GetTetMethod_1.rb
+ create mode 100644 31_Reader_1.rb
+ create mode 100644 32_Writer_1.rb
+ create mode 100644 33_Accessor_1.rb
+ create mode 100644 34_Self_1.rb
+ create mode 100644 35_Class_Instance.rb
+ create mode 100644 35_Super_1.rb
+ create mode 100644 36_Iterators_1.rb
+ create mode 100644 37_ARGV.rb
+ create mode 100644 3_Addition.rb
+ create mode 100644 4_LargestNum.rb
+ create mode 100644 5_Even_Odd.rb
+ create mode 100644 6_ClassObject1.rb
+ create mode 100644 6_ClassObject2.rb
+ create mode 100644 6_ClassObject3.rb
+ create mode 100644 7_ReverseArray.rb
+ create mode 100644 8_Pattern1.rb
+ create mode 100644 999_Test.rb
+ create mode 100644 9_calculator.rb
+ create mode 100644 README.md
+developer@developer:~/Documents/Ruby Programs$ gitk
+
+Command 'gitk' not found, but can be installed with:
+
+sudo apt install gitk
+
+developer@developer:~/Documents/Ruby Programs$ sudo apt install gitk
+[sudo] password for developer: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libfwupdplugin1 python3-cliapp python3-markdown python3-packaging python3-pygments python3-pyparsing python3-ttystatus
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libtcl8.6 libtk8.6 tcl tcl8.6 tk tk8.6
+Suggested packages:
+  git-doc tcl-tclreadline
+The following NEW packages will be installed:
+  gitk libtcl8.6 libtk8.6 tcl tcl8.6 tk tk8.6
+0 upgraded, 7 newly installed, 0 to remove and 8 not upgraded.
+Need to get 1,793 kB of archives.
+After this operation, 8,331 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu focal/main amd64 libtcl8.6 amd64 8.6.10+dfsg-1 [902 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu focal/main amd64 libtk8.6 amd64 8.6.10-1 [714 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu focal/main amd64 tk8.6 amd64 8.6.10-1 [12.5 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu focal/main amd64 tcl8.6 amd64 8.6.10+dfsg-1 [14.8 kB]
+Get:5 http://in.archive.ubuntu.com/ubuntu focal/universe amd64 tcl amd64 8.6.9+1 [5,112 B]
+Get:6 http://in.archive.ubuntu.com/ubuntu focal/universe amd64 tk amd64 8.6.9+1 [3,240 B]
+Get:7 http://in.archive.ubuntu.com/ubuntu focal-updates/universe amd64 gitk all 1:2.25.1-1ubuntu3.5 [141 kB]
+Fetched 1,793 kB in 3s (625 kB/s)
+Selecting previously unselected package libtcl8.6:amd64.
+(Reading database ... 193772 files and directories currently installed.)
+Preparing to unpack .../0-libtcl8.6_8.6.10+dfsg-1_amd64.deb ...
+Unpacking libtcl8.6:amd64 (8.6.10+dfsg-1) ...
+Selecting previously unselected package libtk8.6:amd64.
+Preparing to unpack .../1-libtk8.6_8.6.10-1_amd64.deb ...
+Unpacking libtk8.6:amd64 (8.6.10-1) ...
+Selecting previously unselected package tk8.6.
+Preparing to unpack .../2-tk8.6_8.6.10-1_amd64.deb ...
+Unpacking tk8.6 (8.6.10-1) ...
+Selecting previously unselected package tcl8.6.
+Preparing to unpack .../3-tcl8.6_8.6.10+dfsg-1_amd64.deb ...
+Unpacking tcl8.6 (8.6.10+dfsg-1) ...
+Selecting previously unselected package tcl.
+Preparing to unpack .../4-tcl_8.6.9+1_amd64.deb ...
+Unpacking tcl (8.6.9+1) ...
+Selecting previously unselected package tk.
+Preparing to unpack .../5-tk_8.6.9+1_amd64.deb ...
+Unpacking tk (8.6.9+1) ...
+Selecting previously unselected package gitk.
+Preparing to unpack .../6-gitk_1%3a2.25.1-1ubuntu3.5_all.deb ...
+Unpacking gitk (1:2.25.1-1ubuntu3.5) ...
+Setting up libtcl8.6:amd64 (8.6.10+dfsg-1) ...
+Setting up tcl8.6 (8.6.10+dfsg-1) ...
+Setting up libtk8.6:amd64 (8.6.10-1) ...
+Setting up tcl (8.6.9+1) ...
+Setting up tk8.6 (8.6.10-1) ...
+Setting up tk (8.6.9+1) ...
+Setting up gitk (1:2.25.1-1ubuntu3.5) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+developer@developer:~/Documents/Ruby Programs$ gitk
+developer@developer:~/Documents/Ruby Programs$ git branch -M main
+developer@developer:~/Documents/Ruby Programs$ git branch
+* main
+developer@developer:~/Documents/Ruby Programs$ git push origin main
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+developer@developer:~/Documents/Ruby Programs$ git remote add origin https://github.com/yjairiya/Ruby-Programs.git
+developer@developer:~/Documents/Ruby Programs$ git push origin main
+Username for 'https://github.com': yjairiya
+Password for 'https://yjairiya@github.com': 
+Enumerating objects: 67, done.
+Counting objects: 100% (67/67), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (66/66), done.
+Writing objects: 100% (67/67), 15.50 KiB | 233.00 KiB/s, done.
+Total 67 (delta 0), reused 0 (delta 0)
+To https://github.com/yjairiya/Ruby-Programs.git
+ * [new branch]      main -> main
+developer@developer:~/Documents/Ruby Programs$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+developer@developer:~/Documents/Ruby Programs$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    27_Exception_1.rb
+	deleted:    27_Exception_2_retry.rb
+	deleted:    27_Exception_3_retry.rb
+	deleted:    27_Exception_4.rb
+	deleted:    27_Exception_5.rb
+	deleted:    27_Exception_6_Catch.rb
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Exception/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+developer@developer:~/Documents/Ruby Programs$ git add Exception/ 27_Exception_1.rb 27_Exception_2_retry.rb 27_Exception_3_retry.rb 27_Exception_4.rb 27_Exception_5.rb 27_Exception_6_Catch.rb
+developer@developer:~/Documents/Ruby Programs$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	renamed:    27_Exception_1.rb -> Exception/27_Exception_1.rb
+	renamed:    27_Exception_2_retry.rb -> Exception/27_Exception_2_retry.rb
+	renamed:    27_Exception_3_retry.rb -> Exception/27_Exception_3_retry.rb
+	renamed:    27_Exception_4.rb -> Exception/27_Exception_4.rb
+	renamed:    27_Exception_5.rb -> Exception/27_Exception_5.rb
+	renamed:    27_Exception_6_Catch.rb -> Exception/27_Exception_6_Catch.rb
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+
+developer@developer:~/Documents/Ruby Programs$ git commit -m "Added exception folder"
+[main 577e05f] Added exception folder
+ 6 files changed, 0 insertions(+), 0 deletions(-)
+ rename 27_Exception_1.rb => Exception/27_Exception_1.rb (100%)
+ rename 27_Exception_2_retry.rb => Exception/27_Exception_2_retry.rb (100%)
+ rename 27_Exception_3_retry.rb => Exception/27_Exception_3_retry.rb (100%)
+ rename 27_Exception_4.rb => Exception/27_Exception_4.rb (100%)
+ rename 27_Exception_5.rb => Exception/27_Exception_5.rb (100%)
+ rename 27_Exception_6_Catch.rb => Exception/27_Exception_6_Catch.rb (100%)
+developer@developer:~/Documents/Ruby Programs$ git push origin main
+Username for 'https://github.com': yjairiya
+Password for 'https://yjairiya@github.com': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 474 bytes | 474.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/yjairiya/Ruby-Programs.git
+   da7f27b..577e05f  main -> main
+developer@developer:~/Documents/Ruby Programs$ ^C
+developer@developer:~/Documents/Ruby Programs$ 
+

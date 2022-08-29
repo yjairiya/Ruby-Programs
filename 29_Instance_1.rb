@@ -2,6 +2,7 @@
 class Circle
 
   def initialize(name)
+    
   end
 end
   
@@ -13,10 +14,9 @@ class Rectangle
   def initialize(x, y)
   
     # Initialize variable
-    @x = x
-    @y = y
+    puts @x = x
+    puts @y = y
   end
   end
-  
   Rectangle.new(10, 20)
-  
+  # @counter
