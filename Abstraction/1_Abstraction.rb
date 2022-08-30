@@ -9,8 +9,7 @@ class Geeks
     privateMethod
 	end
 
-	# defining privateMethod
-	# private
+	
   def extra
     puts "New Method "
   end
@@ -21,9 +20,7 @@ class Geeks
 end
 
 
-# creating an object of class Geeks
 obj = Geeks.new
 
-# calling the public method of class Geeks
 obj.publicMethod
 obj.privateMethod

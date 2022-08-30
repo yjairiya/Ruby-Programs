@@ -1,6 +1,8 @@
 class Parent
+ 
   def name(message)
     @message = message
+    
     puts message
     puts "Parent Method is Working"
   end
@@ -10,8 +12,9 @@ end
 class Child < Parent
   def say(message)
     super
-    puts "Working"
+    puts "new"
   end
+  
  
 end
 
